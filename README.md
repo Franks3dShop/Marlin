@@ -1,8 +1,18 @@
 # Franks 3D Shop Haribo Build from a Hictop 3DP1x with larger bed 217mm x 273mm (3030 extrusions for Y are longer to compensate for the bigger bed)
+
+Modified to use Software SPI for the TMC2130, and moved CS for E0 SPI.
+
+Phisically move connections from privious install:
+MAX7219   44 to 65
+MOSI      51 to 66
+MISO      50 to 44
+SCK       52 to 64
+E0 TMC_CS 49 to 59
+
 This is a build of the current 2.0.x (2.0.6.1 as of the september 2nd) Marlin with settings for the Haribo Build on Franks3DShop Youtube channel https://youtu.be/LdET-DzsB4g
 Features:
 - BLTOUCH auto bed leveling
-- Graphical display REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER
+- Character based display REPRAP_DISCOUNT_SMART_CONTROLLER
 - MAX7219 debug display
 - Linear Advance
 - Sensorless Homing (TMC2130 SPI)
