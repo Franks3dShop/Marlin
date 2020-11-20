@@ -2,12 +2,14 @@
 
 Modified to use Software SPI for the TMC2130, and moved CS for E0 SPI.
 
-Phisically move connections from privious install:
-- MAX7219   44 to 65
-- MOSI      51 to 66
-- MISO      50 to 44
-- SCK       52 to 64
-- E0 TMC_CS 49 to 59
+Phisically move connections from privious install :
+- MAX7219   from 44 to 65
+- MOSI      from 51 to 66
+- MISO      from 50 to 44
+- SCK       from 52 to 64
+- E0 TMC_CS from 49 to 59
+
+Ref. 
 
 This is a build of the current 2.0.x (2.0.6.1 as of the september 2nd) Marlin with settings for the Haribo Build on Franks3DShop Youtube channel https://youtu.be/LdET-DzsB4g
 Features:
