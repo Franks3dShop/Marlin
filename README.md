@@ -9,7 +9,7 @@ Phisically move connections from privious install :
 - SCK       from 52 to 64
 - E0 TMC_CS from 49 to 59
 
-Ref. 
+Ref. https://github.com/Franks3dShop/Marlin/blob/Haribo-Benoit/MksGenV14-Pinout.png
 
 This is a build of the current 2.0.x (2.0.6.1 as of the september 2nd) Marlin with settings for the Haribo Build on Franks3DShop Youtube channel https://youtu.be/LdET-DzsB4g
 Features:
